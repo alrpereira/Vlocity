@@ -1,6 +1,6 @@
 public class SCTools {
     
-    public static void test(String OriginType, String OriginSubType, Integer OriginVersion, String OriginStepName, 
+    public static void CopyStepsOS(String OriginType, String OriginSubType, Integer OriginVersion, String OriginStepName, 
                             String TargetType, String TargetSubType, Integer TargetVersion, String TargetName, Integer TargetStepOrder) {     
         //Retrieve Id from Source Omniscript
         vlocity_cmt__OmniScript__c[] OmniScriptId = [SELECT Id FROM vlocity_cmt__OmniScript__c 
